@@ -1,0 +1,69 @@
+# place images in:
+# img/conf-name/community/file.jpg
+# description is actually the company the speaker is working for
+list:
+
+  -
+    name: React Vienna
+    image: react-vienna.svg
+    site: "https://www.meetup.com/ReactVienna/"
+
+  -  
+    name: React Amsterdam
+    image: react-amsterdam.png
+    site: "https://react.amsterdam/"
+
+  - 
+    name: Reactive Conf
+    image: reactive-conf.png
+    site: "https://reactiveconf.com/"
+  
+  -
+    name: React Day Berlin
+    image: react-berlin.png
+    site: "https://reactday.berlin/"
+  
+  -
+    name: ReactJS Madrid
+    image: react-madrid.png
+    site: "https://www.meetup.com/ReactJS-Madrid/"
+  
+  -
+    name: Dot Conferences
+    image: dot-conferences.png
+    site: "https://www.dotconferences.com/"
+  
+  -
+    name: JS Heroes
+    image: jsheroes.svg
+    site: "https://jsheroes.io"
+  
+  -
+    name: React Finland
+    image: react-finland.svg
+    site: "https://react-finland.fi/"
+  
+  -
+    name: React Alicante
+    image: react-alicante.png
+    site: "http://reactalicante.es/"
+  
+  -
+    name: Front End First
+    image: front-end-first.jpg
+    site: "https://t.me/front_end_first"
+  
+  -
+    name: React Scotland
+    image: react-scotland.png
+    site: "https://www.meetup.com/React-Scotland/"
+  
+  -
+    name: React Bolivia
+    image: react-bolivia.png
+    site: "https://www.facebook.com/ReactBolivia/"
+    
+  -
+    name: ReactJs Milano
+    image: reactjs_milano.png
+    site: "https://www.meetup.com/it-IT/React-JS-Milano/"

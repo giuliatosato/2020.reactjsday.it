@@ -1,0 +1,128 @@
+list:
+  -
+    slug: advanced-state-management-patterns-with-react
+    title: Advanced State Management Patterns with React
+    when: October 3rd 2019, Verona
+    timetable: Check-in 9:00 - 9:30 / Workshop 9:30 - 18:00 (lunch and coffee breaks included)
+    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
+    map: https://goo.gl/maps/iqQ6n6bNAf72
+    tickets: https://reactjsday-2019.eventbrite.com/
+    language: english
+    teachers:
+      -
+        name: Francesco Strazzullo
+        picture: francesco-strazzullo.png
+        bio: Front-End Engineer @ Flowing
+        link:
+    intro: |
+      Managing the state is the most important architectural problem of any React application. The purpose of this workshop is to learn some of the most State Management pattern to use in your front-end applications. We will cover some simple techniques to keep your codebase healthy and different styles of programming like Event-Driven or Reactive. During the workshop, we will build our own State management libraries and compare them with mainstream approaches like Redux or MobX.
+    program: |
+      Introduction to State Management in React
+      Tips and Trick for a healthy State Management approach
+      Event-Driven Architectures
+        - Event Bus
+        - Flux
+        - Redux
+      Reactive Programming
+        - Introduction
+        - Observable Models
+        - Proxy Object
+        - MobX
+    addressed_info: |
+      A good Knowledge of React and JavaScript
+    useful_info: |
+      To run the exercises on your machine you will need a ready Node.js enviroment
+  -
+    slug: react-testing-101
+    title: "React Testing 101: component, integration, and end-to-end testing"
+    when: October 3rd 2019, Verona
+    timetable: Registrazioni 9:00 - 9:30 / Workshop 9:30 - 18:00 (pause caffè e pranzo inclusi)
+    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
+    map: https://goo.gl/maps/iqQ6n6bNAf72
+    tickets: https://reactjsday-2019.eventbrite.com/
+    language: italian only
+    teachers:
+      -
+        name: Stefano Magni
+        picture: stefano-magni.jpg
+        bio: |
+          Stefano is a front-end developer and a Cypress ambassador. He’s passionate about testing, automation, and learning. He's developed every kind of UI: games, product configurators, drawing tools, highly responsive websites, and mobile apps. He loves creating quality products, good testing confidence, sharing his knowledge and working with passionate teams.
+          He's currently focused on React, TypeScript and all their ecosystems.
+          Stefano's working on a big "UI Testing Best Practices" project on GitHub and speak regularly at meetups and conferences.
+          He works for Conio, a bitcoin startup based in Milan.
+        link: https://twitter.com/NoriSte
+      -
+        name: Jaga Santagostino
+        picture: jaga-santagostino.jpg
+        bio: |
+          Jaga loves automation and anything that can make a developer's life easier and more enjoyable, from building CLIs to deploy on k8s to Browser Extensions and everything in between. He lives by "sharing is caring” motto.
+          He's the organizer of ReactJS meetup in Milan.
+          He works as an independent consultant, focused on TypeScript, GraphQL and React ecosystems.
+        link: https://twitter.com/kandros5591
+    intro: |
+      Essere in grado di testare componenti e web-app sviluppati con React è un requisito sempre più importante per uno sviluppatore front-end. Ci sono strumenti e librerie che semplificano il processo di testing ma la curva di apprendimento può sembrare scoraggiante.
+      "Da che parte devo cominciare per testare le mie web-app?"
+      "Non mi è chiaro cosa devo testare (e cosa no) e come testarlo... "
+      "I miei attuali test falliscono continuamente e non mi aiutano nel prevenire la nascita di nuovi bug..."
+      L’obbiettivo del corso è quello di fornire le informazioni di base, i principi e alcuni consigli dati dell’esperienza, per entrare nel mondo delle metodologie di testing. Testare le proprie web-app è molto più facile e profittevole di quanto si possa pensare. Questo corso serve ad oltrepassare gli ostacoli iniziali e a capire come trarre un vantaggio immediato dai test, non solo nel medio e lungo periodo.
+    program: |
+      Durante la giornata, vedremo tutti i test utili per una web-app sviluppata con React affrontando i casi tipici con i quali ci si scontra quotidianamente. Durante questo corso ti insegneremo:
+        - Le basi e i vantaggi delle principali tecniche di testing applicate a React
+        - Come testare in modo produttivo i propri componenti React
+        - Le best practice da seguire per scrivere test utili e duraturi
+        - Come testare i diversi flussi utente senza un back-end funzionante
+        - Come scrivere test end-to-end (E2E) efficaci
+        - Come integrare i test nei processi di sviluppo e di Continuous Integration
+
+      Andremo ad utilizzare Jest, React Testing Library, Cypress e tutti i loro plugin utili ad aumentare la produttività quotidiana e l’affidabilità dei test.
+
+      Alterneremo spiegazioni teoriche a sessioni di live coding, al termine del corso verrà rilasciato il codice sorgente di tutti gli esercizi, il materiale utilizzato per le spiegazioni ed altri materiali di approfondimento.
+
+      **Argomenti**
+        - Panoramica dei test
+        - Jest
+          - i built-in matcher
+          - creare un custom matcher
+          - watch mode
+          - JSDOM
+        - utilizzo di chrome-devtools per debuggare un test di Jest con i breakpoint
+        - React Testing Library
+          - il confronto con Enzyme
+          - cosa sono gli implementation detail
+          - come testare quello che l’utente usa
+          - come simulare eventi dell’utente
+          - i provider
+          - i testing hook
+          - shallow rendering
+        - Mocking di funzioni e di moduli
+        - Cosa stiamo cercando di testare veramente?
+          - il filo sottile tra unit testing ed integration testing
+          - come e perchè rendere verboso un test
+          - cosa è meglio evitare di testare
+        - Visual Regression Testing
+        - Snapshot testing: quando evitarli e quando sono utili
+        - Cos'è un test E2E
+          - Automazione del browser
+          - Pro e contro dei test E2E paragonati ai UI integration test
+        - Cypress
+          - il Test Runner
+          - attese automatiche
+          - screenshot e video automatici
+          - esecuzione asincrona
+        - Cypress come strumento di sviluppo, non solo di test
+        - Best practices
+          - come identificare gli elementi in pagina
+          - attese al posto delle pause, concetto di deterministic event
+          - utilizzo corretto delle asserzioni
+        - Perchè mantenere i test il più semplici possibile
+        - Utilità per gli altri membri del team
+          - convenzioni di naming e script dedicati
+          - test di monitoraggio
+        - Utilizzo avanzato di cypress
+          - comandi custom
+        - Visual Regression Testing per l'intera web-app
+        - Continuous Integration
+    addressed_info: |
+      Questo corso è rivolto a tutti gli sviluppatori che già utilizzano React ma non hanno ancora iniziato, o non sono ancora riusciti, a testare con successo le proprie web-app React. Al termine del corso sarai in grado di applicare i principi fondamentali delle metodologie di testing per comprendere cosa e come testare in modo efficace.
+    useful_info: |
+      Per partecipare è necessario, o quanto meno fortemente consigliato, che tu conosca già i concetti fondamentali alla base di React: JSX, i componenti e il loro stato, gli eventi di lifecycle, la gestione dell'interazione da parte dell'utente.

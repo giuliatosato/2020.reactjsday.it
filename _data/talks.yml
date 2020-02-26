@@ -1,0 +1,76 @@
+#-
+#  speaker_id:
+#  title:
+#  keynote:
+#  extract: >
+-
+  speaker_id: surya-ambrose
+  title: "Kickstarting libraries of shared React components for multiple teams"
+  keynote: false
+  extract: >
+    In a company, as the technical teams grow and work on different projects, the question of creating a set of common components naturally arises.
+    This is what happened to us: over the years different teams redeveloped very similar components, from simple UI elements to complete business features. 10 months ago, it was time for us to take a step back and think: how can we do better?
+    With this talk you will:
+    - Discover the technical design that worked for us, a mono-repository architecture with helpful tooling: Storybook, Lerna, React, Flow, Yeoman… 🤓
+    - Deep-dive in some of those solutions that made a difference: Atomic Design, Breaking changes, Themes, Performance... 
+    - Take a peek at our indicators and processes used to make sure we maintain high quality and speed of development. 📈
+    Today, six teams re-use and contribute to our common libraries on a daily basis, and other departments are expressing a big interest in it. 
+    And we even worked through extracting performance indicators, proving us that it was worth maintaining such a collaborative project - that could help you convince your co-workers that it's worth investing time in such a project. You won't regret it!
+-
+  speaker_id: matteo-frana
+  title: "Reusing Stateful Logic in React: HOC vs Render Props vs Hooks"
+  keynote: false
+  extract: >
+    How to reuse stateful logic in React. Advantages and drawbacks of Higher Order Components, Render Props and Hooks. 
+    How to refactor code to use the new React Hooks API.
+-
+  speaker_id: majid-hajian
+  title: "Parallel computing in React"
+  keynote: false
+  extract: >
+    User is working with your application, suddenly, UI freezes and probably, one of the CPU cores is burning! They cannot do anything. The only perception you can feel is as hot as a hell metal case of the laptop. Although this sounds like a horror movie, this is your application that cannot leverage modern APIs to lift heavy computation to a different thread where consequently user suffers the pain.
+    Modern features like Web Workers, WebAssembly, Worklets, and Service Worker allow us to leverage multithreading computing to run tasks parallelly which at the end, makes the user feel like in a rainbow paradise instead of a nightmare, even though  JavaScript is a single-threaded programming language! 
+    In this session, I am going to show my experience running jobs in parallel on a React application that will provide a pleasant user experience and exciting development.
+-
+  speaker_id: isha-kasliwal
+  title: "How Typescript Can Power Design Systems"
+  keynote: false
+  extract: >
+    Design Systems are highly popular and beneficial in bridging the gap between design and development. The inclusion of React.js in Design Systems helped introduce the concept of functional programming as it relates to building components for reuse and scale. What happens if we take it a step further? With Typescript, a superset of Javascript that can be used in conjunction with React.js, your Design System can reach a whole new level of efficiency and clarity. By using Typescript in your Design System, you can become more thoughtful about view-layer components with strongly-typed data models -- even style-specific props can be typed, offering visual consistency and ensuring prop purpose. Allowing data to be passed between view-specific components with exportable interfaces makes communicating the intent and limits of your component seamless. Not only do you get to include static type-checking at compile time, but you can use interfaces to describe objects with different properties, make your IDE respond to the code you write, and much more.
+    This talk will explore how UI engineers, from beginner to experienced, can harness the power of Typescript to help enforce better component standards in the code and allow large-scale Javascript projects to succeed. I will additionally include real-life examples of how we're making Typescript work for our Design System at Twitch, and how it's improving designer/developer relationships. By the end of this talk, you will walk away with actionable ideas to implement in your Design Systems codebase!
+-
+  speaker_id: maurizio-mangione
+  title: "Coding with Web Standards"
+  keynote: false
+  extract: >
+    Designing with Web Standard by Jeffrey Zeldman changed the way we built websites at the beginning of 2000. This amazing book helped front-end developers (called web designers at the time) to understand how and why using the correct tags and approaches it's a good idea. A lot of time passed and Web Standards continue to evolve. Are we embracing them or are we fighting them?
+    During this talk, we'll hurl back to 2000 and then return to our days on a trip full of standards,  less-standard things, weird web nostalgia moments and the secret for a better web.
+-
+  speaker_id: kathleen-mcmahon
+  title: "Accessibility-flavored React components make your design system delicious!"
+  keynote: false
+  extract: >
+    Design systems are a popular way for teams to flavor their design and development workflow. However, an often-missing ingredient in many design systems is a focus on accessibility best practices — especially when component libraries are involved. 
+    In this talk, we’ll take a look at how you can mix some commonly-used components with the ingredients of accessibility. Pair this with best practices guidance in your documentation, and you’ll have the recipe for a delectably inclusive design system.
+-
+  speaker_id: anastasiia-miroshnichenko
+  title: "Why React the Web AR"
+  keynote: false
+  extract: >
+    Actually, I have no idea why you would need that. But I will tell you why I decided to React my Web AR Applications. 
+    First, it happened when my simple single-page project started growing with new crazy features and covered with additional libraries which were not discussed in Technical Task from the beginning.
+    So I had to secure my App from destruction and chaos.  
+-
+  speaker_id: narendra-shetty
+  title: "Turning an Application UI into an API"
+  keynote: false
+  extract: >
+    For backend services having a flexible API is a common practice that allows you to combine different APIs as if they were LEGO blocks and solve almost any business need. At Twilio we’ve been doing REST APIs for over 10 years. When we recently decided to ship a software that has a working UI out of the box, we still wanted to make sure that it is as flexible as our REST APIs.
+    In this talk we’ll dive into how we ended up architecting a programmable UI platform using React that both allows you to have a fully working UI out of the box but also customize every functionality and user experience of it to your needs using the full power of React.
+-
+  speaker_id: farzad-yousefzadeh
+  title: "Tackle React component complexity using Reactive Statecharts"
+  keynote: false
+  extract: >
+    There are many UI components that carry a huge deal of complexity. Usually, we deal with complexity in UI without noticing it. As truly said, the devil is in the detail. We usually don't notice this until it's too late! That's why no matter how clean our components and their API surface looks when the first attempt is out, many bugs pop out soon and adding new features gives us a hard time! In this talk, I will try to demonstrate how we underestimate the complexity in React UI components and propose an approach to simplify this effort by modeling the behavior of the component using Reactive Statecharts.
+    I'll go through the thinking model of how to tackle this complexity in developing the component, how to think properly about the edge cases and how to model this explicitly using Reactive Statecharts.

@@ -1,0 +1,24 @@
+name: reactjsday
+og_image: http://2019.reactjsday.it/theme/img/background2.jpg
+slug: reactjsday
+url: https://2019.reactjsday.it
+where_when: verona, october 4th 2019
+year: 2019
+since: 2015
+call_for_paper_url: https://goo.gl/forms/IdukyL5PBLLMX64y1
+call_for_paper: false
+talks_available: true
+schedule_available: true
+workshops_available: true
+scholarship_available: false
+
+iubenda:
+  cookiePolicyId: 63963515
+  siteId: 1123795
+  lang: en
+  enableRemoteConsent: true
+  localConsentDomain: reactjsday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-MBFCXJH

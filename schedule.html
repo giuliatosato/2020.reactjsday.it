@@ -1,0 +1,80 @@
+---
+title: Schedule
+---
+
+<div class="limit limit--top-margin">
+
+  {% include schedule/intro.html date='October 4th' %}
+
+  <div class="schedule" data-dates="1-25,5-12,1-24">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html tracks='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='09:00 - 09:45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='09:45 - 10:00' title='GrUSP presentation' fill='true' %}
+
+        {% include schedule/talk.html time='10:00 - 10:30' title='Turning an Application UI into an API' fill='true' %}
+        {% include schedule/talk.html time='10:30 - 11:20' title='Kickstarting libraries of shared React components for multiple teams' fill='true' %}
+
+        {% include schedule/pause.html time='11:20 - 11:50' title='Short break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='11:50 - 12:40' title='Parallel computing in React' fill='true' %}
+        {% include schedule/talk.html time='12:40 - 13:10' title='How Typescript Can Power Design Systems' fill='true' %}
+
+        {% include schedule/pause.html time='13:10 - 14:30' title='Lunch + Lightning talks' icon="food" fill='true' %}
+
+        {% include schedule/talk.html time='14:30 - 15:00' title='Tackle React component complexity using Reactive Statecharts' fill='true' %}
+        {% include schedule/talk.html time='15:00 - 15:50' title='Reusing Stateful Logic in React: HOC vs Render Props vs Hooks' fill='true' %}
+        {% include schedule/talk.html time='15:50 - 16:20' title='Why React the Web AR' fill='true' %}
+
+        {% include schedule/pause.html time='16:20 - 16:45' title='Coffee break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='16:45 - 17:30' title='Accessibility-flavored React components make your design system delicious!' fill='true' %}
+        {% include schedule/talk.html time='17:30 - 18:00' title='Coding with Web Standards' keynote='true' fill='true' %}
+
+        {% include schedule/pause.html time='18:00 - 18:10' title='Bye bye from GrUSP' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='18:15 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule schedule--mobile" data-dates="5-12,1-24,1-25">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html track='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='09:00 - 09:45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='09:45 - 10:00' title='GrUSP presentation' fill='true' %}
+
+        {% include schedule/talk.html time='10:00 - 10:30' title='Turning an Application UI into an API' fill='true' %}
+        {% include schedule/talk.html time='10:30 - 11:20' title='Kickstarting libraries of shared React components for multiple teams' fill='true' %}
+
+        {% include schedule/pause.html time='11:20 - 11:50' title='Short break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='11:50 - 12:40' title='Parallel computing in React' fill='true' %}
+        {% include schedule/talk.html time='12:40 - 13:10' title='How Typescript Can Power Design Systems' fill='true' %}
+
+        {% include schedule/pause.html time='13:10 - 14:30' title='Lunch + Lightning talks' icon="food" fill='true' %}
+        
+        {% include schedule/talk.html time='14:30 - 15:00' title='Tackle React component complexity using Reactive Statecharts' fill='true' %}
+        {% include schedule/talk.html time='15:00 - 15:50' title='Reusing Stateful Logic in React: HOC vs Render Props vs Hooks' fill='true' %}
+        {% include schedule/talk.html time='15:50 - 16:20' title='Why React the Web AR' fill='true' %}
+
+        {% include schedule/pause.html time='16:20 - 16:45' title='Coffee break' icon="coffee" fill='true' %}
+
+        {% include schedule/talk.html time='16:45 - 17:30' title='Accessibility-flavored React components make your design system delicious!' fill='true' %}
+        {% include schedule/talk.html time='17:30 - 18:00' title='Coding with Web Standards' keynote='true' fill='true' %}
+
+        {% include schedule/pause.html time='18:00 - 18:10' title='Bye bye from GrUSP & FEVR' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='18:15 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}

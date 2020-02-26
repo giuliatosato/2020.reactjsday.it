@@ -1,0 +1,88 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+# description is actually the company the speaker is working for
+list:
+
+#  -
+#    id:
+#    description:
+#    image:
+#    first_name:
+#    last_name:
+#    twitter:
+#    trainer: false
+
+  -
+    id: surya-ambrose
+    description: Lead developer, Theodo
+    image: surya-ambrose.jpeg
+    first_name: Surya
+    last_name: Ambrose
+    twitter: AmbroseSurya
+    trainer: false   
+  -
+    id: matteo-frana
+    description: Founder, F2.net
+    image: matteo-frana.jpg
+    first_name: Matteo
+    last_name: Frana
+    twitter: matfrana
+    trainer: false
+  -
+    id: majid-hajian
+    description: Software Developer, Softiware AS
+    image: majid-hajian.jpg
+    first_name: Majid
+    last_name: Hajian 
+    twitter: mhadaily
+    trainer: false
+  -
+    id: isha-kasliwal
+    description: Senior UI/UX Designer/Developer, Twitch
+    image: isha-kasliwal.png
+    first_name: Isha
+    last_name: Kasliwal 
+    twitter: ikasliwal
+    trainer: false
+  -
+    id: maurizio-mangione
+    description: Developer Advocate, DAZN
+    image: maurizio-mangione.jpg
+    first_name: Maurizio
+    last_name: Mangione 
+    twitter: granze
+    trainer: false
+  -
+    id: kathleen-mcmahon
+    description: Senior Frontend Engineer and Design System Tech Lead, O'Reilly Media
+    image: kathleen-mcmahon.jpg
+    first_name: Kathleen
+    last_name: McMahon 
+    twitter: resource11
+    trainer: false
+  -
+    id: anastasiia-miroshnichenko
+    description: Web XR Developer, Saint Elmo's Berlin
+    image: anastasiia-miroshnichenko.jpg
+    first_name: Anastasiia
+    last_name: Miroshnichenko
+    twitter: AnastasiiaaaaM
+    trainer: false
+  -
+    id: narendra-shetty
+    description: Senior Software Engineer, Twilio
+    image: narendra-shetty.jpg
+    first_name: Narendra
+    last_name: Shetty
+    twitter: narendra_shetty
+    trainer: false
+
+  -
+    id: farzad-yousefzadeh 
+    description: Senior Software Engineer, Futurice.
+    image: farzad-yousefzadeh.jpg
+    first_name: Farzad
+    last_name: YousefZadeh
+    twitter: farzad_yz
+    trainer: false    
+    
