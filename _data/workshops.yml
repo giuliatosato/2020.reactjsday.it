@@ -1,37 +1,37 @@
 list:
-  -
-    slug: advanced-state-management-patterns-with-react
-    title: Advanced State Management Patterns with React
-    when: October 3rd 2019, Verona
-    timetable: Check-in 9:00 - 9:30 / Workshop 9:30 - 18:00 (lunch and coffee breaks included)
-    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
-    map: https://goo.gl/maps/iqQ6n6bNAf72
-    tickets: https://reactjsday-2019.eventbrite.com/
-    language: english
-    teachers:
-      -
-        name: Francesco Strazzullo
-        picture: francesco-strazzullo.png
-        bio: Front-End Engineer @ Flowing
-        link:
-    intro: |
-      Managing the state is the most important architectural problem of any React application. The purpose of this workshop is to learn some of the most State Management pattern to use in your front-end applications. We will cover some simple techniques to keep your codebase healthy and different styles of programming like Event-Driven or Reactive. During the workshop, we will build our own State management libraries and compare them with mainstream approaches like Redux or MobX.
-    program: |
-      Introduction to State Management in React
-      Tips and Trick for a healthy State Management approach
-      Event-Driven Architectures
-        - Event Bus
-        - Flux
-        - Redux
-      Reactive Programming
-        - Introduction
-        - Observable Models
-        - Proxy Object
-        - MobX
-    addressed_info: |
-      A good Knowledge of React and JavaScript
-    useful_info: |
-      To run the exercises on your machine you will need a ready Node.js enviroment
+#  -
+#    slug: advanced-state-management-patterns-with-react
+#    title: Advanced State Management Patterns with React
+#    when: October 3rd 2019, Verona
+#    timetable: Check-in 9:00 - 9:30 / Workshop 9:30 - 18:00 (lunch and coffee breaks included)
+#    where: Hotel San Marco, Via Longhena 42, 37138, Verona, Italy
+#    map: https://goo.gl/maps/iqQ6n6bNAf72
+#    tickets: https://reactjsday-2019.eventbrite.com/
+#    language: english
+#    teachers:
+#      -
+#        name: Francesco Strazzullo
+#        picture: francesco-strazzullo.png
+#        bio: Front-End Engineer @ Flowing
+#        link:
+#    intro: |
+#      Managing the state is the most important architectural problem of any React application. The purpose of this workshop is to learn some of the most State Management pattern to use in your front-end applications. We will cover some simple techniques to keep your codebase healthy and different styles of programming like Event-Driven or Reactive. During the workshop, we will build our own State management libraries and compare them with mainstream approaches like Redux or MobX.
+#    program: |
+#      Introduction to State Management in React
+#      Tips and Trick for a healthy State Management approach
+#      Event-Driven Architectures
+#        - Event Bus
+#        - Flux
+#        - Redux
+#      Reactive Programming
+#        - Introduction
+#        - Observable Models
+#        - Proxy Object
+#        - MobX
+#    addressed_info: |
+#      A good Knowledge of React and JavaScript
+#    useful_info: |
+#      To run the exercises on your machine you will need a ready Node.js enviroment
   -
     slug: react-testing-101
     title: "React Testing 101: component, integration, and end-to-end testing"

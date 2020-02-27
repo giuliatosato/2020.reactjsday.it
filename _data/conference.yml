@@ -1,16 +1,16 @@
 name: reactjsday
-og_image: http://2019.reactjsday.it/theme/img/background2.jpg
+og_image: http://2020.reactjsday.it/theme/img/background2.jpg
 slug: reactjsday
-url: https://2019.reactjsday.it
-where_when: verona, october 4th 2019
-year: 2019
+url: https://2020.reactjsday.it
+where_when: verona, october 14-15 2020
+year: 2020
 since: 2015
-call_for_paper_url: https://goo.gl/forms/IdukyL5PBLLMX64y1
+#call_for_paper_url: https://goo.gl/forms/IdukyL5PBLLMX64y1
 call_for_paper: false
-talks_available: true
-schedule_available: true
-workshops_available: true
-scholarship_available: false
+talks_available: false
+schedule_available: false
+workshops_available: false
+scholarship_available: true
 
 iubenda:
   cookiePolicyId: 63963515

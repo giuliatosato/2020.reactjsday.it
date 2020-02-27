@@ -50,13 +50,10 @@ platinum:
     - 5 tickets with 15% discount
   max: 4
   list:
-    -
-      url: https://engineering.dazn.com/?utm_source=reactjsday
-      image: dazn.svg
-    -
-      url: https://www.microsoft.com?utm_source=reactjsday
-      image: microsoft.svg      
-      
+   -
+     url: https://www.workwave.com/?utm_source=reactjsday
+     image: workwave.svg
+
 
 gold:
   price: € 1,500
@@ -70,19 +67,10 @@ gold:
     - 3 tickets with 15% discount
   max: 8
   list:
-   -
-      url: https://www.flowing.it/?utm_source=reactjsday
-      image: flowing.svg
-   -
-      url: https://www.linkme.it/?utm_source=reactjsday
-      image: linkme.svg
-   -
-     url: https://www.workwave.com/?utm_source=reactjsday
-     image: workwave.svg
-   -
-     url: http://wwg.it/?utm_source=reactjsday
-     image: wwg.svg
-     
+#    -
+#      url: https://engineering.dazn.com/?utm_source=reactjsday
+#      image: dazn.svg
+
 silver:
   price: € 750
   offer:
@@ -94,18 +82,9 @@ silver:
     - 3 tickets with 10% discount
   max: 16
   list:
-    -
-      url: https://labs.madisoft.it/?utm_source=reactjsday
-      image: madisoft.svg
-    -
-      url: https://www.balsamiq.com?utm_source=reactjsday
-      image: balsamiq.svg
-    -
-      url: http://www.f2.net/?utm_source=reactjsday
-      image: f2net.svg   
-    -
-      url: https://www.voxnest.com/?utm_source=reactjsday
-      image: voxnest.svg      
+#    -
+#      url: https://labs.madisoft.it/?utm_source=reactjsday
+#      image: madisoft.svg
 
 bronze:
   price: € 500
