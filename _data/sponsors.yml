@@ -82,9 +82,9 @@ silver:
     - 3 tickets with 10% discount
   max: 16
   list:
-#    -
-#      url: https://labs.madisoft.it/?utm_source=reactjsday
-#      image: madisoft.svg
+    -
+      url: https://labs.madisoft.it/?utm_source=reactjsday
+      image: madisoft.svg
 
 bronze:
   price: € 500
@@ -94,3 +94,6 @@ bronze:
     - 2 tickets with 10% discount
   max: 32
   list:
+    -
+      url: http://stickermule.com/supports/grusp20-sponsorship
+      image: stickermule.svg      
