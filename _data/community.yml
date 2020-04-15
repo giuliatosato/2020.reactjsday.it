@@ -67,3 +67,12 @@ list:
     name: ReactJs Milano
     image: reactjs_milano.png
     site: "https://www.meetup.com/it-IT/React-JS-Milano/"
+  -
+    name: React Norway
+    image: reactnorway.svg
+    site: "https://reactnorway.com/"    
+  -
+    name: React New York
+    image: reactnewyork.svg
+    site: "https://reactnewyork.com/"    
+    
