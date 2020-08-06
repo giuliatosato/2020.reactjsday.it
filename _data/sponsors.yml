@@ -85,6 +85,9 @@ silver:
     -
       url: https://labs.madisoft.it/?utm_source=reactjsday
       image: madisoft.svg
+    -
+      url: https://www.facile.it/?utm_source=reactjsday
+      image: facile.svg      
 
 bronze:
   price: € 500
