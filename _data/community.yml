@@ -4,11 +4,16 @@
 list:
 
   -
+    name: GirlScript
+    image: girl-script.png
+    site: "https://www.girlscript.tech/"
+
+  -
     name: React Vienna
     image: react-vienna.svg
     site: "https://www.meetup.com/ReactVienna/"
 
-  -  
+  -
     name: React Amsterdam
     image: react-amsterdam.png
     site: "https://react.amsterdam/"
