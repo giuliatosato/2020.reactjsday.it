@@ -80,3 +80,13 @@ list:
     image: girl-script.png
     site: "https://www.girlscript.tech/"
 
+  -
+    name: Gamedev.js
+    image: gamedevjs.svg
+    site: https://gamedevjs.pl/
+
+  -
+    name: js13kGames
+    image: js13kgames.svg
+    site: https://js13kgames.com/
+
