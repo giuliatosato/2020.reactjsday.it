@@ -95,3 +95,7 @@ list:
     image: workshops-de.svg
     site: https://workshops.de/
 
+  -
+    name: JavaScript Kingdom
+    image: jsk.svg
+    site: https://twitter.com/javascriptking
