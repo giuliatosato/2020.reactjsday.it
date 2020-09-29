@@ -87,7 +87,10 @@ silver:
       image: madisoft.svg
     -
       url: https://www.facile.it/?utm_source=reactjsday
-      image: facile.svg      
+      image: facile.svg 
+    -
+      url: https://dev.welaika.com/?utm_source=reactjsday
+      image: welaika.svg       
 
 bronze:
   price: € 500
