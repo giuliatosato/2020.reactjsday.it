@@ -12,7 +12,7 @@
     "Hooks have become a better and cleaner way to write React code. Many are now realizing it and starting to migrate their solutions from class to functional components. When the code looks great, and the migration seems successful, your tests may disagree.
     This presentation focuses on the common pitfalls of testing and what we have been doing wrong while also teaching you how to test your brand new hooks using components, all this while using the React Testing Library."
 -
-  speaker_id: matthias-dogue
+  speaker_id: matthias-dugue
   title: "Bless You My Dev"
   keynote:
   extract: > 
