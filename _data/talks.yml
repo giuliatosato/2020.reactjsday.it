@@ -3,3 +3,41 @@
 #  title: ""
 #  keynote:
 #  extract: >
+
+-
+  speaker_id: daniel-afonso
+  title: "React Hooks broke my tests, now what?"
+  keynote:
+  extract: > 
+    "Hooks have become a better and cleaner way to write React code. Many are now realizing it and starting to migrate their solutions from class to functional components. When the code looks great, and the migration seems successful, your tests may disagree.
+    This presentation focuses on the common pitfalls of testing and what we have been doing wrong while also teaching you how to test your brand new hooks using components, all this while using the React Testing Library."
+-
+  speaker_id: matthias-dogue
+  title: "Bless You My Dev"
+  keynote:
+  extract: > 
+    "How to Improve the Developer eXperience. Our frontend tooling has become a very complex environment. We load dependencies, run tasks, bundle assets, version source code, and push in production… all with a common tool: our Terminal. During the last years, mainstream projects all had developed CLI to helps their users (we, as developers) to manage their daily actions. With many talks in conferences dedicated to the lovely Terminal.
+    Though, some projects still tend to defend a GUI approach. At least, they provide it optionnaly to their users, like Vue-CLI that provide both a CLI and a Web Interface to manage projects visually. Developers are users like others. We should not constraint them to use our tools the way we want.
+    So, if some need CLI, and others prefer GUI, why not trying to unify them with a GUI… in the Terminal! Let's see a project that aims to bring powerful interfaces inside developers terminal to improve their day to day tasks, using React, Node.js, and Ncurses (with Blessed). Discover how building new kinds of interfaces may become insanely fun!"
+-
+  speaker_id: jad-joubran
+  title: "JavaScript prerequisites for React (hooks)"
+  keynote:
+  extract: > 
+    "In this talk, we'll cover the JavaScript concepts that you need to know prior to learning React (hooks). This includes: Array destructuring, Object destructuring, immutability, closures, and more.
+    The talk will also cover how these concepts are used in React components."
+-
+  speaker_id: adam-klein
+  title: "We don’t know how React state hooks work"
+  keynote:
+  extract: > 
+    "We use them all the time, and we think we know state hooks work (useState, useReducer). But under the hood, as expected, things are not what you imagine.
+    This talk is about update queues, batching, eager and lazy updates, and some other cool things learned from looking at Hooks source code. It also contains practical takeaways that will help you better understand and debug your code"
+
+-
+  speaker_id: talia-nassi
+  title: "Controlled Rollout with React Native and Feature Flags"
+  keynote:
+  extract: > 
+    "Feature flags allow development teams to separate code deployment from feature release. It has grown to be an essential tool for testing in production, canary releases, and A/B testing. Controlled rollout using feature flags is a way to deliver features to your users safely, but doing it on mobile comes with some challenges. How do you propagate feature flagging configuration to mobile devices that don't always have a strong network? As a mobile developer, you want to be able to use the latest flag configuration, but you also don't want to stop someone using the app just because you can't load the feature flag config. In this talk, we'll start with why controlled rollout is important and how feature flags enable you to do it successfully, then we will talk about mobile specifics, and then a demo with React Native."
+    

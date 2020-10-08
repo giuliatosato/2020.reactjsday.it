@@ -11,4 +11,40 @@ list:
 #    last_name:
 #    twitter:
 #    trainer: false
+  -
+    id: daniel-afonso
+    description: Software Engineer, Talkdesk
+    image: daniel-afonso.jpg
+    first_name: Daniel
+    last_name: Afonso
+    twitter: danieljcafonso
+    
+  -
+    id: matthias-dugue
+    description: Tech Evangelist, alwaysdata
+    image: matthias-dugue.jpg
+    first_name: Matthias
+    last_name: Dugué
+    twitter: m4d_z
 
+  -
+    id: jad-joubran
+    description: Web consultant & online instructor
+    image: jad-joubran.jpg
+    first_name: Jad
+    last_name: Joubran
+    twitter: JoubranJad
+  -
+    id: adam-klein
+    description: Co-founder, 500Tech
+    image: adam-klein.jpg
+    first_name: Adam		
+    last_name: Klein
+    twitter: adamklein500
+  -
+    id: talia-nassi
+    description: Developer Advocate, Split Software
+    image: talia-nassi.jpg
+    first_name: Talia
+    last_name: Nassi
+    twitter: talia_nassi
