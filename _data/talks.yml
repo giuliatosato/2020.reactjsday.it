@@ -40,4 +40,30 @@
   keynote:
   extract: > 
     "Feature flags allow development teams to separate code deployment from feature release. It has grown to be an essential tool for testing in production, canary releases, and A/B testing. Controlled rollout using feature flags is a way to deliver features to your users safely, but doing it on mobile comes with some challenges. How do you propagate feature flagging configuration to mobile devices that don't always have a strong network? As a mobile developer, you want to be able to use the latest flag configuration, but you also don't want to stop someone using the app just because you can't load the feature flag config. In this talk, we'll start with why controlled rollout is important and how feature flags enable you to do it successfully, then we will talk about mobile specifics, and then a demo with React Native."
+-
+  speaker_id: clement-pasteau
+  title: "Demystifying and leveraging Web Vitals"
+  keynote:
+  extract: > 
+    "What are Web Vitals? How can I use this to optimise the Performance of my React app? We'll look at how to integrate web-vitals in an existing app to analyse real-time end-user performance"
+
+-
+  speaker_id: jake-todaro 
+  title: "Redux -> Recoil"
+  keynote:
+  extract: > 
+    "Recoil is a new experimental state management library built at Facebook that offers many advantages over Redux. 
+    This talk will provide a brief intro to Recoil and tell the tale of migrating a complex application from Redux to Recoil to unlock massive performance gains."  
+-
+  speaker_id: liad-yosef
+  title: "useSideProject - If you build it, they will come"
+  keynote:
+  extract: > 
+    "These crazy times brought with them some opportunities as well - a chance to play with exciting new technologies - on one hand - and on the other hand a 
+    growing demand for interactive, innovative solutions for connecting people. Web Sockets and WebRTC allow us to have instant interactivity and connect people 
+    remotely, but using them as low-level technologies might be challenging for a simple weekend project. However - using existing tools to build our own dream web 
+    app, our interactive, collaborative, video-driven game changer - was never easier. 
+    We’ll see how we can harness the power of Netlify, Firebase, Agora and similar tools inside a newly created React app, to easily build a cool, interactive video web app. 
+    One that’s easy to build, and could even grow from a side-project - to an actual living product."
+    
     
