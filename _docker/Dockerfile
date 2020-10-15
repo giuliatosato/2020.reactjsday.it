@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:3.8.4
+FROM jekyll/jekyll
 
 RUN apk add --update ruby-dev build-base libffi-dev cmake
 
