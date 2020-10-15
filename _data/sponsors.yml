@@ -89,8 +89,11 @@ silver:
       url: https://www.facile.it/?utm_source=reactjsday
       image: facile.svg 
     -
+      url: https://react-tutorial.app?utm_source=reactjsday
+      image: reacttutorial.svg        
+    -
       url: https://dev.welaika.com/?utm_source=reactjsday
-      image: welaika.svg       
+      image: welaika.svg     
 
 bronze:
   price: € 500
