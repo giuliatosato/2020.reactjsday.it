@@ -48,3 +48,24 @@ list:
     first_name: Talia
     last_name: Nassi
     twitter: talia_nassi
+  -
+    id: clement-pasteau
+    description: CTO, Theodo UK
+    image: clement-pasteau.jpg
+    first_name: Clément		
+    last_name: Pasteau
+    twitter: ClementPasteau
+  -
+    id: jake-todaro
+    description: Front-End Engineer, Facebook
+    image: jake-todaro.jpg
+    first_name: Jake
+    last_name: Todaro
+    twitter:       
+  -
+    id: liad-yosef
+    description: Tech Lead, Duda 
+    image: liad-yosef.jpg
+    first_name: Liad
+    last_name: Yosef
+    twitter: liadyosef     
